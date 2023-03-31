@@ -1,0 +1,7 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": {
+        "pip install git+https://github.com/pymc-labs/pymc-marketing.git",
+        "pip3 install CausalPy",
+        },
+}
